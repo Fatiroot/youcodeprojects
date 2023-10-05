@@ -179,56 +179,6 @@ header.sticky{
 	font-size: var(--h2-font);
 	line-height: 1.2;
 }
-.package-content{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-	grid-gap: 2rem;
-	align-items: center;
-	margin-top: 5rem;
-}
-.thum{
-	position: relative;
-	transition: all .3s cubic-bezier(.445,.05,.55,.95);
-	will-change: filter;
-	cursor: pointer;
-}
-.thum img{
-	width: 100%;
-	height: auto;
-}
-.thum h3{
-	position: absolute;
-	font-size: 30px;
-	font-weight: 600;
-	text-align: right;
-	color: var(--bg-color);
-	top: 36px;
-	right: 40px;
-}
-.dest-content{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 24px;
-}
-.stars i{
-	color: var(--main-color);
-	font-size: 20px;
-}
-.location h4{
-	font-size: 24px;
-	font-weight: 600;
-	margin-bottom: 8px;
-}
-.location p{
-	font-size: 15px;
-	color: var(--second-color);
-}
-.thum:hover{
-	filter: brightness(100%) hue-rotate(45deg);
-	transform: scale(1.04);
-}
 
 .destination-content{
 	display: grid;
@@ -265,28 +215,7 @@ header.sticky{
 	left: 15px;
 	bottom: 100px;
 }
-.col-content p, .blog-content p{
-	position: absolute;
-	font-size: 15px;
-	color: var(--bg-color);
-	left: 15px;
-	bottom: 30px;
-	letter-spacing: 2px;
-}
-.col-content img:hover{
-	filter: brightness(100%) hue-rotate(45deg);
-	transform: scale(1.04);
-	cursor: pointer;
-}
-.blog-content img:hover{
-	-webkit-filter: brightness(30%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-	cursor: pointer;
-}
+
 
 .newsletter{
 	display: flex;
